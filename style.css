@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.border{
+    border: 3px solid black;
+}
+
+
+/* #region flexbox 1*/
+.flexbox-container-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* #endregion*/
+
+
+/* #region flexbox 2*/
+
+.flexbox-container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-item{
+    width: 200px;
+    text-align: center;
+}
+
+/* #endregion*/
+
+
+/* #region flexbox 3*/
+
+.flexbox-container-3{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+/* #endregion*/
+
+.flexbox-container-4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* #region flexbox 4*/
+
+/* #endregion*/
+
